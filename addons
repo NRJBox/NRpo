@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.program.tonywarlley" name="Builds TONYWARLLEY" version="2.1" provider-name="@TONYWARLLEY">
+<addon id="plugin.video.NRJBox" name="[COLOR green][B]NRJ[/B][/COLOR][COLOR white][B]Box[/B][/COLOR]" version="2.1" provider-name="@TONYWARLLEY">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
