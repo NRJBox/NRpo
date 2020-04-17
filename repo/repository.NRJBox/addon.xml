@@ -1,18 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.NRJBox" name="[COLOR green][B]NRJ[/B][/COLOR][COLOR white][B]Box[/B][/COLOR]" version="0.5" provider-name="NRJ">
-	<extension point="xbmc.addon.repository" name="NRJBox">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.NRJBox" name="[COLOR green][B]NRJ[/B][/COLOR][COLOR white][B]Box Repository[/B][/COLOR]" version="0.5" provider-name="NRJ">
+	<extension point="xbmc.addon.repository" name="[COLOR green][B]NRJ[/B][/COLOR][COLOR white][B]Box[/B][/COLOR]">
 		<info compressed="false">https://raw.githubusercontent.com/NRJBox/NRpo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/NRJBox/NRpo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/NRJBox/NRpo/tree/master/repo</datadir>
 	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR white][B]O NRJBox é um addon completo para entretenimento.[/B][/COLOR]</summary>
-		<description>[COLOR white] [B]O addon NRJBox é um projeto feito pensando em melhorar a experiencia de todos os que necessitam de um plugin com programações em Full HD, e todos os plugins em que você já testou tem imagem somente em SD.[/B][/COLOR] </description>
-		<disclaimer>Versão 0.5 do plugin NRJBox.</disclaimer>
-		<platform>all</platform>
-	</extension>
-
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -29,6 +21,10 @@
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
-  
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR white][B]Repositorio oficial do [/B][/COLOR][COLOR green][B]NRJ[/B][/COLOR][COLOR white][B]Box[/B][/COLOR]</summary>
+		<description>[COLOR white][B]Repositorio usado para a instalação dos plugins NRJ.[/B][/COLOR]</description>
+		<disclaimer>Esta é uma versão alpha do repositorio, tudo o que você ver aqui pode ser alterado e pode ser considerado algum tipo de teste para a futura versão 1.0 do repositorio</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
-</addons>
